@@ -1,0 +1,77 @@
+/* Configuração Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* Caixa principal */
+.container {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+/* Campo de entrada e botão lado a lado */
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 20%;
+    background-color: #28a745; /* Verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo da lista */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Classe que o JS adiciona quando clicamos na tarefa */
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Botão de remover */
+.delete-btn {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+}
